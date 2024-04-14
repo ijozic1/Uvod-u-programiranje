@@ -1,0 +1,3 @@
+Napišite program koji omogućuje unos tri cijela broja a, b i c, razdvojena razmakom. Program zatim izračunava vrijednost izraza (a+b)*c i na ekranu ispisuje poruku 
+oblika „Rezultat operacije je (1+2)*3=9". 
+Naravno, umjesto brojeva 1, 2 i 3 treba uvrstiti brojeve koje je korisnik unio, a umjesto 9 vrijednost datog izraza.

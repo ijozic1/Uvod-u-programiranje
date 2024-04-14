@@ -1,0 +1,15 @@
+Napisati program koji ispisuje tablicu kvadrâta brojeva iz intervala [a b] sa korakom k. Korisnik unosi granice intervala a i b, korak k, te širinu ispisa i broj decimala koje će program ispisivati.
+
+Primjeri ulaza i izlaza:
+Unesite interval [a b]: 1 2
+Unesite korak: 0.2
+Unesite sirinu ispisa: 8
+Unesite broj decimala: 2
+X             X^2
+-------------------
+1.00    |    1.00
+1.20    |    1.44
+1.40    |    1.96
+1.60    |    2.56
+1.80    |    3.24
+2.00    |    4.00

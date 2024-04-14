@@ -1,0 +1,17 @@
+Data je struktura:
+
+	struct Kompleksni {
+		int re, im;
+	};
+Potrebno je napisati prototip funkcije
+struct Kompleksni Stepenuj(struct Kompleksni k, int stepen), koja će obaviti stepenovanje kompleksnog broja, 
+koji je prosljeđen kao argument. Također je potrebno napisati funkcije za sabiranje i oduzimanje kompleksnih 
+brojeva. U mainu obezbijediti da korisnik unose koju operaciju želi obaviti, (+ sabiranje, - oduzimanje, ^ stepenovanje), 
+te se od njega traži unos potrebnih podataka i obavlja data operacija. Format unosa kompleksnog broja je (re,im).
+
+Primjer ulaza i izlaza:
+
+    Unesite operator: ^
+    Unesite kompleksni broj: (3,2)
+    Unesite stepen: 3
+    Rezultat: -9+46i

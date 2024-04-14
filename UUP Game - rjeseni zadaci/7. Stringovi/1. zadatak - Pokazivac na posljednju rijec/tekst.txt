@@ -1,0 +1,11 @@
+Napisati funkciju
+
+const char* posljednja_rijec (const char *s)
+koja vraća pokazivač na posljednju riječ u proslijeđenom stringu. Npr. ako je string glasio 
+„Danas je divan dan“, funkcija treba da vrati pokazivač na prvo slovo posljednje riječi tj. 
+pokazivač na slovo „d“ riječi „dan“. Funkcija ne modificira izvorni string. Primjer korištenja:
+
+printf ("Posljednja rijec: '%s'", posljednja_rijec("Danas    je   divan   dan!"));
+ispisuje „Posljednja rijec: 'dan!'“.
+
+Napomena: Nije dozvoljeno kreirati pomoćne stringove u funkciji ili globalno.

@@ -1,0 +1,13 @@
+Napisati funkciju provjeri_duzine koja prima neki string koji predstavlja rečenicu i niz cijelih brojeva. 
+Funkcija treba provjeriti da li niz predstavlja niz dužina riječi u rečenici, te vraća 1 ako je uslov 
+ispunjen a 0 ako nije. Riječ se definiše kao neprekinut niz velikih i malih slova tako da se npr. string 
+"Auto-Stop" smatra za dvije riječi.
+
+Primjer: ako string glasi:
+
+Ovo je neki primjer teksta
+Onda bi niz brojeva morao glasiti: 3, 2, 4, 7, 6 jer su to dužine riječi u ovoj rečenici.
+
+Napomena: U programu je zabranjeno koristiti funkcije iz biblioteka string.h i stdlib.h, te 
+funkcije sprintf i sscanf iz biblioteke stdio.h. Također je strogo zabranjeno kreirati pomoćni 
+niz/string u funkciji!

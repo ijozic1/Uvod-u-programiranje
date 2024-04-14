@@ -1,0 +1,21 @@
+Dat je neki niz prirodnih brojeva (uključujući nulu), na primjer:
+233, 38, 17777, 7737, 152
+Ovaj niz možemo posmatrati kao neprekinuti niz cifara, npr:
+23338177777737152
+Potrebno je u drugi niz upisati: cifru i koliko puta uzastopno se ta cifra nalazi u ovom neprekinutom nizu. Dakle, za primjer iznad 
+drugi niz bi trebao glasiti:
+2 1 3 3 8 1 1 1 7 6 3 1 7 1 1 1 5 1 2 1
+(cifra 2 se pojavljuje 1 put uzastopno, cifra 3 se pojavljuje 3 puta uzastopno itd.)
+
+Potrebno je napisati program koji radi na sljedeći način: najprije se unosi veličina polaznog niza (max. 100 elemenata), a zatim i njegovi 
+članovi (osigurati da se ponavlja unos ako korisnik proba unijeti neispravnu veličinu ili član koji nije prirodan broj ili nula). Zatim se 
+na ekranu ispisuju članovi drugog niza razdvojeni znakom razmaka.
+
+Primjer ulaza i izlaza:
+Unesite velicinu niza: 5
+Unesite clanove niza: 233 38 17777 7737 152
+Finalni niz glasi:
+2 1 3 3 8 1 1 1 7 6 3 1 7 1 1 1 5 1 2 1
+
+Napomena: U postavci zadatka je dat polazni kod - nije dozvoljeno promijeniti ovaj kod! Vaše rješenje zadatka napišite umjesto komentara 
+/* === OVDJE UBACITI KOD === */ a ono što se nalazi prije i poslije toga nipošto nemojte mijenjati jer vam neće prolaziti testovi!

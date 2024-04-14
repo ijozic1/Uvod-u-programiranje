@@ -1,0 +1,16 @@
+Napišite funkciju sa prototipom:
+
+char* velika(char *s);
+koja u primljenom stringu sva mala slova pretvara u velika. Funkcija treba da vraća pokazivač na početak 
+istog stringa koji je proslijeđen funkciji kao parametar. Ovo omogućuje da se funkcija poziva lančano, 
+npr. možete pisati:
+
+char s[] = "Ovo je primjer.";
+printf("%s", velika(s));
+Napravite kraći testni program u kojem demonstrirate rad ove funkcije. 
+
+Primjer ulaza i izlaza:
+Unesite neki tekst: Ovo je primjer.
+OVO JE PRIMJER.
+
+Napomena: Nije dozvoljeno kreirati pomoćne stringove u funkciji ili globalno.

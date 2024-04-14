@@ -1,0 +1,30 @@
+Napisati funkciju sa prototipom:
+
+double aritmeticka(int* niz, int vel, int* max_cifra, int* min_cifra)
+Funkcija prima niz cijelih brojeva, njegovu veličinu, te pokazivače min_cifra i max_cifra za koje se pretpostavlja da pokazuju na 
+neke cjelobrojne promjenljive u funkciji iz koje je pozvana funkcija aritmeticka. Ova funkcija treba najprije odrediti aritmetičku 
+sredinu članova niza niz, što je vrijednost koja se vraća iz funkcije. Zatim u vrijednost na koju pokazuje pokazivač max_cifra treba 
+upisati cifru koja se najviše puta pojavljuje u onim članovima niza koji su veći od aritmetičke sredine. Ako se dvije cifre 
+pojavljuju isti broj puta u datim brojevima, treba upisati onu od tih cifara koja je veća.
+
+Slično tome u pokazivač min_cifra treba upisati cifru koja se najmanje puta pojavljuje u članovima niza koji su veći od aritmetičke 
+sredine. Obratite pažnju da tu ne treba upisivati cifru koja se ne pojavljuje niti jednom - cifra se treba pojavljivati barem jednom. 
+Ako se više cifara pojavljuju isti (najmanji) broj puta, treba upisati onu koja je najmanja.
+
+Konačno ako u nizu nema članova većih od aritmetičke sredine, u vrijednosti na koje pokazuju pokazivači treba upisati brojeve -1.
+
+Primjer: ako niz glasi
+
+10365 2841 31000 23711 17
+Aritmetička sredina je 13586.8, brojevi veći od ovog broja su 31000 i 23711. U ovim brojevima cifre 0 i 1 se pojavljuju najveći 
+broj puta (3 puta), ali od te dvije cifre 1 je veća, pa u max_cifra treba upisati 1. Cifre 2 i 7 se pojavljuju samo po jednom, 
+ali od te dvije cifre 2 je manja pa u min_cifra treba upisati 2. Ako bi niz glasio npr:
+
+42 42 42
+niti jedan član niza nije veći od aritmetičke sredine, tako da min_cifra i max_cifra trebaju postati -1.
+
+Napisati i kraću main funkciju koja omogućuje testiranje napisane funkcije aritmeticka. Primjer ulaza i izlaza:
+
+Unesite clanove niza (0 za kraj):
+10365 2841 31000 23711 17 0
+Najvise puta se ponavlja cifra 1 a najmanje cifra 2.

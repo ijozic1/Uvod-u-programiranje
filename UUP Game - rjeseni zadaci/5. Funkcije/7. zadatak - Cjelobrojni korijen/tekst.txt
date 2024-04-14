@@ -1,0 +1,14 @@
+Napisati funkciju int korijen (int a) koja vraća vrijednost korijena primljenog broja. 
+Funkcija treba da radi samo za brojeve čiji korijen je cijeli broj, a za sve ostale brojeve treba vraćati -1. 
+Npr. za brojeve 4, 9 i 16 treba vratiti 2, 3 i 4 respektivno, a za sve brojeve između -1.
+
+Pri rješavanju zadatka nije dozvoljeno koristiti biblioteku math.h.
+
+Napisati i kraću main funkciju koja omogućuje testiranje napisane funkcije korijen. 
+Primjeri ulaza i izlaza:
+Unesite n: 64
+Korijen broja 64 je 8.
+
+Drugi primjer:
+Unesite n: 63
+Korijen broja 63 nije cijeli broj.

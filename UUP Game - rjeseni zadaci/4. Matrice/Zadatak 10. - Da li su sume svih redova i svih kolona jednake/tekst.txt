@@ -1,0 +1,16 @@
+Napisati program koji provjerava da li su sume svih redova i svih kolona matrice jednake.
+
+Najprije se unose brojevi M i N koji predstavljaju broj redova i broj kolona matrice (ne većih od 100). U slučaju unosa 
+većeg ili negativnog broja tražiti ponovan unos oba broja. Zatim se unose članovi matrice. Program treba ispisati DA ako 
+su sume svih redova matrice jednake, a NE ako nisu. U sljedećem redu treba ispisati DA ako su sume svih kolona jednake, a NE ako nisu.
+
+Primjer ulaza i izlaza:
+Unesite brojeve M i N: 50 101
+Neispravan unos!
+Unesite brojeve M i N: 3 3
+Unesite clanove matrice: 1 2 3
+3 2 1
+2 2 2
+DA
+DA
+Napomena: Svi oblici hardcodiranja kao i programi koji uvijek ispisuju istu poruku biće sankcionisani sa 0 bodova.

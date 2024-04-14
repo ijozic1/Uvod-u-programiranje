@@ -1,0 +1,17 @@
+%u - unsigned int
+%o - oktalni sistem
+%x - heksadekadni sistem
+%e - ispis u naucnoj notaciji
+%p - adresa u memoriji
+%a - float kao heksadecimalni
+
+- poravnava ulijevo
++ ispisuje predznak
+.nf - preciznost realnog broja (n broj decimala)
+0 popunjava prostor nulama
+*.* duzina i preciznost se navode kao parametri => printf("%*.*f",5,2,x);
+
+h - short
+l - long
+L - long double
+* - u scanf_u ucitava vrijednost ali je zanemaruje => ono za kompeleksne bi vjv bilo scanf("*%d,%d*",&re, &im);

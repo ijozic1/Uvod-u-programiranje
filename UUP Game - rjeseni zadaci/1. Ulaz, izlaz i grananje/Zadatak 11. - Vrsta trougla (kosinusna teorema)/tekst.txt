@@ -1,0 +1,15 @@
+Date su tri tačke u dvodimenzionalnom Dekartovom prostoru preko koordinata x i y. Ove tri tačke čine trougao.
+Potrebno je napraviti program koji omogućuje unos ovih tačaka (koordinate su realni brojevi), zatim ispisuje koju vrstu trougla one čine, te 
+ispisuje najveći ugao u trouglu (u stepenima).
+Vrsta trougla može biti: Linija (ako sve tri tačke leže na istom pravcu onda u pitanju uopšte nije trougao nego linija), 
+Jednakostranični, Pravougli, Jednakokraki, Raznostranični. Vrsta trougla se ispisuje u zasebnoj liniji, bez naših slova. 
+Ako je trougao istovremeno jednakokraki i pravougli, ispisuje se oboje. Iznosi stepeni, minuta i sekundi su uvijek cijeli brojevi.
+Primjer ulaza i izlaza:
+
+Unesite koordinate tacke t1: 0.1 0.1
+Unesite koordinate tacke t2: 0.1 0.2
+Unesite koordinate tacke t3: 0.2 0.2
+Pravougli
+Jednakokraki
+Najveci ugao ima 90 stepeni, 0 minuta i 0 sekundi.
+Napomena: Koristiti vrijednost ε=0.0001 i tip double.

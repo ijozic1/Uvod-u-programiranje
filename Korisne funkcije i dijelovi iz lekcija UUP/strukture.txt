@@ -1,0 +1,23 @@
+"Novi" tipovi podataka
+typedef int visina;
+visina h;
+
+"Maskiranje"
+enum Boja{Crvena, Plava, Zuta, Zelena};
+enum Boja b=Crvena;
+
+STRUKTURE
+struct Datum{
+    int dan, mjesec, godina;
+};
+struct Datum d;
+
+typedef struct{
+    int dan, mjesec, godina;
+}Datum;
+Datum d;
+
+anonimna struktura - korisno ako je jedna promjenjiljiva tog tipa
+struct{
+    int dan, mejsec, godina;
+}d;

@@ -1,0 +1,14 @@
+Date su strukture:
+
+struct Tacka { 			struct Trapez { 
+    double x,y; 			    struct Tacka A,B,C,D;
+} 					    } 
+Struktura sigurno predstavlja trapez predstavljen preko četiri tačke kao na slici (tačke će biti date istim 
+redom kao na slici). Napišite funkciju trapezi koja prima niz tipa struct Trapez, veličinu niza n, 
+te dva prazna niza tipa double za koje pretpostavljamo da su dovoljno veliki da prime sve potrebne elemente. 
+U niz koji je dat kao treći parametar treba upisati obime primljenih trapeza, a u četvrti parametar njihove površine.
+
+
+Obim trapeza je dat po formuli O=a+b+c+d gdje su a, b, c i d dužine stranica. Površina trapeza je data po 
+formuli P=m×h gdje je m dužina srednje linije (središnjice) koja se određuje kao aritmetička sredina 
+dužina stranica a i c, a h je visina (vidjeti sliku). 50% testova će provjeravati samo obim.

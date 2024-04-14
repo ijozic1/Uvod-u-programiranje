@@ -1,0 +1,20 @@
+Napišite program koja obavlja sljedeći zadatak: Potrebno je unijeti cijeli broj N, pomoću do-while petlje osigurati da je N cijeli broj 
+djeljiv sa 4 veći ili jednak 8. Zatim nacrtati oblik kao na slici sastavljen od kvadrata u gornjem desnom i donjem lijevom uglu, X-a u
+gornjem lijevom i znaka plus u donjem desnom uglu.
+
+Za n=12
+
+\    /+----+
+ \  / |    |
+  \/  |    |
+  /\  |    |
+ /  \ |    |
+/    \+----+
++----+  ||  
+|    |  ||  
+|    |--++--
+|    |--++--
+|    |  ||  
++----+  || 
+ 
+Napomena: Pri rješavanju zadatka NIJE dozvoljeno koristiti nizove niti matrice!

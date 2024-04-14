@@ -1,0 +1,17 @@
+Napisati funkciju
+
+Vektor3d vektorski_proizvod (Vektor3d v1, Vektor3d v2)
+koja vraća vektorski proizvod v1 i v2 vektora. Struktura Vektor3d je definisana na sljedeći način:
+
+typedef struct {
+	double x, y, z;
+} Vektor3d;
+Podsjetimo, ako su vektori v1 i v2 zadani kao v1=(x1,y1,z1), v2=(x2,y2,z2), njihov vektorski proizvod je jednak:
+
+V1xV2=i(y1z2-z1y2)+j(z1x2-x1z2)+k(x1y2-y1x2)
+ 
+Također obavezno napraviti i main funkciju sa sljedećim oblikom ulaza i izlaza:
+
+Unesite vektor v1: 1 1 1
+Unesite vektor v2: 2 2 2
+Vektorski proizvod vektora v1 i v2 je: (0,0,0)

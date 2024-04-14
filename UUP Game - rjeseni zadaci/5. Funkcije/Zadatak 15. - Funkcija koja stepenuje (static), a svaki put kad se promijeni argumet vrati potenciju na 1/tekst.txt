@@ -1,0 +1,24 @@
+Potrebno je napraviti funkciju double stepen(double x) koja radi na sljedeći način: svaki put kada se funkcija pozove sa 
+datim brojem x, ona će vratiti sljedeći stepen broja x, dakle prvi put vraća x1, zatim x2, x3, x4itd. Međutim, kada se 
+pozove sa nekim drugim brojem x, stepen se resetuje na 1.
+
+Primjer:
+stepen(2) - vraća 2
+stepen(2) - vraća 4
+stepen(2) - vraća 8
+stepen(3) - vraća 3
+stepen(3) - vraća 9
+…
+
+Ovu funkciju iskoristite da biste napravili funkciju sa sljedećim prototipom:
+
+void stepenuj_niz(double A[], int s[], int duzina)
+
+Funkcija prima niz realnih brojeva A i niz prirodnih brojeva s koji su iste dužine duzina, a zatim svaki član niza A 
+stepenuje na eksponent dat u odgovarajućem članu niza s. Funkcija obavezno mora koristiti ranije datu funkciju stepen, u 
+suprotnom će zadatak biti bodovan sa 0 bodova.
+
+U postavci zadatka je uključena main funkcija Nije dozvoljeno izmijeniti ovu main funkciju! Kôd vaših funkcija stepen i 
+stepenuj niz napišite iznad main funkcije, umjesto komentara koji se tamo nalazi.
+
+Pri rješavanju zadatka nije dozvoljeno koristiti globalne promjenljive.

@@ -1,0 +1,15 @@
+Napisati program koji korisniku omogućava unos broja n (ne veće od 100) koji definiše
+veličinu matrice nxn, a zatim cijelih brojeva X , Y.
+Matricu treba popuniti brojevima X i Y na sljedeći način: lijevi i desni trougao unutar matrice
+kao i dijagonale čine elementi X . Gornji i donji trougao matrice čine elementi Y. Za dimenziju
+n manje od 3, program ispisuje gresku: “Greska”.
+
+Primjer izgleda matrice za:
+n=5, X=6 i Y=4
+ 6 4 4 4 6
+ 6 6 4 6 6
+ 6 6 6 6 6
+ 6 6 4 6 6
+ 6 4 4 4 6
+ 
+Ovako popunjenu matricu treba na kraju ispisati na ekran.

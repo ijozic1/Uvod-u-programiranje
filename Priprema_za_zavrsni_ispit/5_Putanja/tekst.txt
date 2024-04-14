@@ -1,0 +1,8 @@
+U datoteci putanja.txt su pohranjeni podaci o kretanju tačke kroz prostor. U prvoj
+koloni se nalazi x koordinata tačke, u drugoj koloni y koordinata tačke, a u trećoj koloni
+vremenski trenutak u kojem je tačka zauzimala datu x i y koordinatu izražen u sekundama.
+Svaka kolona zauzima tačno 5 mjesta. Koordinate su pohranjene kao realni brojevi, a vrijeme
+kao cjelobrojan podatak. Napisati program koji u element strukture Pozicija učitava jednu
+po jednu tačku na putanji i određuje brzinu, ubrzanje i pređeni put između svake dvije
+uzastopne tačke. Za svaki utvrđeni segment kretanja ispisati karakteristične podatke, a na kraju
+ispisati prosječnu brzinu kretanja i ukupan pređeni put.

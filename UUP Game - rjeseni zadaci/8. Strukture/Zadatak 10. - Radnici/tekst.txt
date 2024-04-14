@@ -1,0 +1,14 @@
+Date su strukture:
+
+	struct Datum { int dan, mjesec, godina; };
+	struct Radnik {
+		char ime_prezime[30];
+		struct Datum datum_rodjenja;
+		int plata[12];
+	};
+    
+String ime_prezime sadrži ime i prezime razdvojene razmakom (pretpostavite da je to jedini razmak u stringu), 
+a niz plata predstavlja mjesečne plate u protekloj godini. Napisati funkciju izdvoji_radnike koja prima 
+niz tipa struct Radnik i pronalazi broj radnika starosti između 30 i 40 godina (na dan ispita, uključivo) 
+čije prezime počinje slovom R i čija je prosječna plata u protekloj godini iznosila između 1000 i 2000 KM 
+(uključivo). Rješenje koje uvijek vraća isti broj će biti bodovana sa 0 bodova iako možda budu prolazili neki testovi.

@@ -1,0 +1,7 @@
+Napisati C program koji pronalazi najduži palindrom unutar unesenog stringa. Maksimalna
+dužina datog stringa je 1000. Funkcija palindrom(char *s) ne treba da razlikuje mala i
+velika slova i treba da ignoriše prazna mjesta.
+
+Primjer:
+ Originalni string: yxypxst
+ Palindrom: yxy

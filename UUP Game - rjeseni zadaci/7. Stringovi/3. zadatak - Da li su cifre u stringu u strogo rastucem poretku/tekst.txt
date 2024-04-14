@@ -1,0 +1,20 @@
+Napravite funkciju sa prototipom
+
+int srce(const char* s)
+Funkcija srce (skraćeno od Strogo Rastuće CifrE) provjerava da li su u primljenom stringu cifre u strogo rastućem 
+poretku, odnosno da li je svaka cifra strogo veća od prethodne cifre. Ako je ovaj uslov ispunjen funkcija treba 
+vratiti 1, a ako nije 0. Ako se u stringu ne nalazi niti jedna cifra, funkcija treba vratiti -1.
+
+Primjer stringa za koji funkcija vraća 1:
+
+a1b2c3d
+No za string
+
+a1b3c3d
+funkcija treba vratiti nulu jer 3 nije strogo veće od 3. Obratite pažnju da ova funkcija provjerava cifre a 
+ne čitave brojeve! Npr. za string
+
+a123b45
+funkcija treba vratiti 1 iako je broj 45 manji od 123, iz razloga što se posmatraju odvojene cifre 1,2,3,4,5.
+
+Napomena: Nije dozvoljeno kreirati pomoćne stringove ili nizove u funkciji ili globalno.

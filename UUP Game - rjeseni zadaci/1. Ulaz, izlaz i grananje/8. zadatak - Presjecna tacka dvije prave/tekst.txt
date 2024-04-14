@@ -1,0 +1,11 @@
+Date su dvije linearne jednačine:
+y = a1x + b1
+y = a2x + b2
+Ove dvije jednačine opisuju dvije prave u koordinatnom prostoru. Potrebno je napisati program koji određuje tačku u kojoj se te dvije prave 
+sijeku (x i y za koje su jednačine jednake) ili, ako su prave paralelne, ispisati poruku "Paralelne su", a ako se prave poklapaju treba 
+ispisati poruku "Poklapaju se". Program najprije omogućuje unos četiri realna koeficijenta a1, b1, a2, b2, a zatim ispisuje koordinate tačke 
+sjecišta zaokružene na jednu decimalu.
+
+Primjer ulaza i izlaza:
+Unesite a1,b1,a2,b2: 3.1,5.2,2.1,1.0
+Prave se sijeku u tacci (-4.2,-7.8)

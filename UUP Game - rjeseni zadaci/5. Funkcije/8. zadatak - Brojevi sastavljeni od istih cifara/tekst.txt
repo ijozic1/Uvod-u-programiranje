@@ -1,0 +1,15 @@
+Napisati funkciju čiji je prototip:
+
+	int iste_cifre(int a, int b)
+Funkcija vraća logičku istinu (1) ako su brojevi a i b sastavljeni od istih cifara, a logičku neistinu (0) ako nisu. 
+Predznak zanemarite. Napravite i kraću main funkciju pomoću koje možete testirati ispravnost funkcije iste_cifre.
+
+Primjeri:
+Ako je a=4423 i b=2433 funkcija treba vratiti 1 jer se ovi brojevi sastoje od istih cifara (2, 3, 4).
+Ako je a=4423 i b=322 funkcija treba vratiti 0 jer se u broju b ne nalazi cifra 4 koja se nalazi u broju a.
+
+Napisati i kraću main funkciju koja omogućuje testiranje napisane funkcije iste_cifre. 
+Primjer ulaza i izlaza:
+Unesite broj a: 4423
+Unesite broj b: 2433
+Brojevi a i b se sastoje od istih cifara.

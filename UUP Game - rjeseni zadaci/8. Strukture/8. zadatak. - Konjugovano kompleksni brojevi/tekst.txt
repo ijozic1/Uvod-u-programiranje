@@ -1,0 +1,18 @@
+Napisati funkciju
+
+int konjugovano_kompleksni (Kompleksni *p1, Kompleksni *p2, Kompleksni *rez)
+koja niz na čiji početak pokazuje rez popunjava konjugovano-kompleksnim parovima iz niza omeđenog sa p1 i p2. 
+Definirati i strukturu Kompleksni:
+
+typedef struct {
+	int im, re;
+} Kompleksni;
+Funkcija vraća broj konjugovano-kompleksnih parova koji su smješteni u niz. U niz se ne smiju smještati duplikati. 
+Pretpostaviti da niz na kojeg pokazuje rez ima dovoljno elemenata da smjesti sve konjugovano-kompleksne parove. 
+Konjugovano-kompleksni parovi su parovi oblika a + bi i a – bi.
+
+Primjer poziva:
+
+int br_kk = konjugovano_kompleksni(niz, niz + 10, rezultat);
+Napomena: Obavezno koristiti pokazivačku aritmetiku, odnosno, zabranjeno je indeksiranje niza kao i trivijalna 
+simulacija indeksiranja pomoću *(p + i). Zabranjeno je kreiranje pomoćnog niza u funkciji.

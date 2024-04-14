@@ -1,0 +1,39 @@
+Tri prijatelja - Tarik, Bojan i Mirza - odlučili su da uporede svoj uspjeh na predmetu Osnove računarstva. 
+Njima je potreban program koji omogućuje unos bodova po kategorijama: I parcijalni ispit (max. 20 bodova), 
+II parcijalni ispit (max. 20 bodova), Prisustvo (max. 10 bodova), Zadaće (max. 10 bodova) i Završni ispit (max. 40 bodova). 
+Broj bodova može imati i decimalni dio. U slučaju da se unese negativan broj bodova ili veći od dozvoljenog, program treba ispisati 
+poruku "Neispravan broj bodova" (bez navodnika) i prekinuti rad programa.
+
+Ako su svi bodovi uneseni ispravno, nakon unosa treba odrediti ocjene za svakog studenta po važećoj skali:
+
+do 55 bodova - student pao
+[55, 65) bodova - ocjena 6
+[65, 75) bodova - ocjena 7
+[75, 85) bodova - ocjena 8
+[85, 92) boda - ocjena 9
+[92, 100] bodova - ocjena 10
+Potrebno je ispisati jednu od sljedećih poruka ovisno o situaciji:
+
+Nijedan student nije položio.
+Jedan student je položio.
+Dva studenta su položila.
+Sva tri studenta su položila.
+Te ako su sva tri studenta položila, u sljedećem redu ispisati jednu od poruka:
+
+Sva tri studenta imaju istu ocjenu.
+Dva od tri studenta imaju istu ocjenu.
+Svaki student ima različitu ocjenu.
+Primjer ulaza i izlaza:
+
+Unesite bodove za Tarika:
+I parcijalni ispit: 18
+II parcijalni ispit: 15
+Prisustvo: 9
+Zadace: 5
+Zavrsni ispit: 30
+Unesite bodove za Bojana:
+I parcijalni ispit: 12
+...
+Sva tri studenta su polozila.
+Svaki student ima razlicitu ocjenu.
+Napomena: Pri rješavanju zadatka nije dozvoljeno koristiti nizove niti petlje!

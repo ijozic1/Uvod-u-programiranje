@@ -1,0 +1,6 @@
+Napisati funkciju fibonacci koja prihvata broj n i vraća n-ti Fibonaccijev broj. Npr. za n = 15 funkcija treba vratiti broj 610.
+Napisati i kraću main funkciju koja omogućuje testiranje napisane funkcije fibonacci. 
+
+Primjer ulaza i izlaza:
+Unesite n: 15
+15-ti Fibonaccijev broj je 610.

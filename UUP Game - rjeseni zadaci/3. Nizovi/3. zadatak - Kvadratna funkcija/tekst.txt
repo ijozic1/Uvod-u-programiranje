@@ -1,0 +1,16 @@
+Kvadratna funkcija ima oblik y=ax^2+bx+c.
+
+Potrebno je napisati program koji za niz vrijednosti x izračunava vrijednosti y i ispisuje na ekran.
+Najprije se unose tri realna koeficijenta a, b i c razdvojena razmakom. Zatim se unosi broj cijeli broj n koji predstavlja broj 
+kvadratnih funkcija koje treba unijeti. Osigurati pomoću do-while petlje da je n prirodan broj ne veći od 100. Konačno, treba unijeti n 
+realnih brojeva x. Nakon toga treba na ekranu ispisati n vrijednosti y.
+
+Primjer ulaza i izlaza:
+Unesite koeficijente a, b i c: 1 2 1
+Unesite n: 3
+Unesite vrijednosti x: 4.5
+6.3
+3.2
+y[0]=30.25
+y[1]=53.29
+y[2]=17.64

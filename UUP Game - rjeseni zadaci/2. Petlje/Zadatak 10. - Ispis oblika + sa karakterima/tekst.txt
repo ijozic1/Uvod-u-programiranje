@@ -1,0 +1,13 @@
+Potrebno je unijeti cijeli broj N, pomoću do-while petlje osigurati da je N neparan broj veći od 1. Nakon toga na ekranu nacrtati znak + sastavljen od 
+ASCII karaktera, širine i visine N znakova, pri čemu su gornji i donji krak sastavljeni od znaka vertikalna linija – pipe (|), lijevi i desni krak od 
+znaka minus (-) pri čemu se na rubu lijevog kraka nalazi znak manje-od (<) a na rubu desnog kraka znak veće-od (>), a u sredini se nalazi znak plus (+).
+
+Primjer ulaza i izlaza:
+Unesite N: 7
+     |
+     |
+     |
+  <--+-->
+     |
+     |
+     |

@@ -1,0 +1,9 @@
+Napisati funkciju vrati_najveci_stepen koja prihvata cijeli broj n, a vraća najveći stepen broja 2 koji je manji ili jednak broju n. 
+Primjer, za n = 35 funkcija treba vratiti 5 jer je broj 32 najveći broj koji je stepen broja 2 (25= 32) a koji je manji ili 
+jednak n tj. od 35. Nije dozvoljeno koristiti funkcije iz biblioteke math.h.
+
+Napisati i kraću main funkciju koja omogućuje testiranje napisane funkcije vrati_najveci_stepen. 
+
+Primjer ulaza i izlaza:
+Unesite n: 35
+Rezultat je 5.

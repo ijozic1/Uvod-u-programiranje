@@ -1,0 +1,18 @@
+Date su strukture:
+
+struct Datum { int dan, mjesec, godina; };
+struct Osoba {
+    char ime[20], prezime[20];
+    struct Datum datum_rodjenja;
+};
+Potrebno je napisati funkciju pod imenom izbaci_palindrome koja prima niz struktura tipa Osoba, te iz niza izbacuje sve osobe 
+čije je ime palindrom, osobe čije je prezime palindrom, te osobe čiji je datum rođenja palindrom pri čemu se od godine rođenja 
+uzimaju samo posljednje dvije cifre. Kod provjere da li je ime palindrom treba zanemariti razliku između velikih i malih slova, 
+ali se ime osobe u nizu ne smije promijeniti! Prilikom izbacivanja elementa iz niza ostali članovi niza moraju ostati u istom 
+redoslijedu u kojem su bili prije izbacivanja.
+
+Primjeri datuma koji su palindromi:
+5. 9. 1995 (5995)
+2. 10. 2012 (21012)
+
+Nije dozvoljeno kreirati pomoćni niz osoba.

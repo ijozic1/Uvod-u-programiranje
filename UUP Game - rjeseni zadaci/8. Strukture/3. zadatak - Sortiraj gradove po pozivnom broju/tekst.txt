@@ -1,0 +1,15 @@
+Data je struktura:
+
+struct Grad {
+    char naziv[20];
+    int pozivni_broj;
+}
+Napisati funkciju preslozi_pozivni koja prima niz gradova, veličinu i jedan pozivni broj. 
+Potrebno je niz presložiti tako da se na početku niza nalaze gradovi čiji je pozivni broj jednak 
+parametru funkcije, a zatim svi ostali. Unutar ove dvije grupe (jednak i različit pozivni broj) 
+redoslijed mora biti nepromijenjen u odnosu na primljeni niz.
+
+Napisati i main funkciju koja omogućuje da se unese niz gradova proizvoljne dužine, zatim poziva 
+funkciju preslozi_pozivni, te na kraju ispisuje tako presložen niz na ekran.
+
+Napomena: U funkciji je strogo zabranjeno kreirati pomoćni niz, i takvo rješenje će biti bodovano sa 0 bodova.

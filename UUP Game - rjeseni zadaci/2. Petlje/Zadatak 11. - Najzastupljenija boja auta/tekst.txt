@@ -1,0 +1,28 @@
+Selmi je bilo dosadno dok je čekala da počnu predavanja, pa je došla do raskrsnice sa idejom da utvrdi koja boja automobila je najpopularnija u Sarajevu. 
+Njen plan je da u računaru evidentira boju svakog automobila koji prođe kroz raskrsnicu. Radi jednostavnosti programa evidentiraće automobile pet boja: 
+crna, bijela, siva, crvena i plava. Boje koje su slične nabrojanim (metalik, bordo…) će evidentirati kao osnovne boje, a rijetko korištene boje 
+(zelena, žuta, ljubičasta…) neće ni brojati jer nema šansi da neka od tih bude najpopularnija.
+
+Za unos boja koristiće slova i to:
+C - crna
+B - bijela
+S - siva
+V - crvena
+P - plava
+K - kraj unosa
+Program treba prihvatati i velika i mala slova, dakle ako Selma unese veliko C ili malo c brojaće se kao jedan automobil crne boje. 
+Za sve ostale znakove treba ispisati poruku "Neispravan unos" i nastaviti dalje sa unosom.
+
+Nakon što se unese slovo K treba ispisati broj ukupno evidentiranih automobila, boju koja je najpopularnija i procentualni udio vozila 
+te boje u ukupnom broju, pri čemu procenat treba biti zaokružen na dvije decimale. Ako je za više boja evidentiran isti broj vozila, treba 
+ispisati onu boju koja je navedena ranije u spisku iznad (npr. ako je evidentiran jednak broj automobila sive i plave boje i to su dvije 
+najpopularnije boje, treba ispisati procenat vozila sive boje jer se siva boja pojavljuje ranije na spisku).
+
+Primjer ulaza i izlaza:
+
+Unesite vozila: CCbcsVSsCsPk
+Ukupno evidentirano 11 vozila.
+Najpopularnija boja je crna (36.36%).
+Savjet: Ako unosite slova koristeći format "%c" nemojte ih razdvajati razmacima niti novim redovima.
+
+Napomena: Pri rješavanju programa nije dozvoljeno koristiti nizove.

@@ -1,0 +1,58 @@
+{
+    "id": 0,
+    "name": "UUP GAME, Ispit 1, Zadatak 3",
+    "languages": [
+        "C"
+    ],
+    "tools": {
+        "compile": {
+            "require": "gcc",
+            "features": [
+                "optimize",
+                "warn",
+                "pedantic"
+            ]
+        },
+        "compile[debug]": {
+            "require": "gcc",
+            "features": [
+                "debug"
+            ]
+        },
+        "execute": {
+            "environment": {
+                "timeout": 10,
+                "memory": 1000000
+            }
+        },
+        "debug": [],
+        "profile[memcheck]": {
+            "require": "valgrind",
+            "features": [
+                "memcheck"
+            ],
+            "environment": {
+                "timeout": 10
+            }
+        },
+        "profile[sgcheck]": {
+            "require": "valgrind",
+            "features": [
+                "sgcheck"
+            ],
+            "environment": {
+                "timeout": 10
+            }
+        }
+    },
+    "tests": [
+        {
+            "compile": [],
+            "options": [
+                "silent",
+                "terminate"
+            ]
+        }
+
+    ]
+}

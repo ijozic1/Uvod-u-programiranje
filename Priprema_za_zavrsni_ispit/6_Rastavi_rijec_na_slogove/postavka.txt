@@ -1,0 +1,6 @@
+U datoteci tekst.txt se nalazi neki tekstualni sadržaj sa maksimalno 500 karaktera.
+Napisati program koji svaku petu riječ teksta rastavlja na slogove, pri čemu se smatra da je riječ
+ograničena razmacima, razmakom i tačkom, ili razmakom i zarezom. Slogovi se međusobno
+odvajaju znakom ‘-’, a pod pojmom sloga se smatra svaki niz slova u riječi koji završava
+samoglasnikom ili krajem riječi. Ovako modifikovan tekst upisati u istu datoteku, ispod
+originalnog teksta, sa jednim redom razmaka između njih.

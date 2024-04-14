@@ -1,0 +1,12 @@
+U datoteci index.html nalazi se neka web stranica predstavljena HTML kodom. HTML kod se sastoji od tagova, entiteta i teksta. 
+Tagovi su zatvoreni u znakove < (manje od) i > (veće od), a entiteti su zatvoreni u znakove & (ampersand) i ; (tačka-zarez).
+
+Primjer HTML koda:
+
+<div id="tekst"><h2>Naslov&nbsp; nastavak</h2><p>Ovo je <b>primjer</b> i <i>tekst</i> zadatka &copy; iz <a href="lekcija9">lekcije 9</a></p></div>
+U primjeru iznad možete uočiti entitete   i ©. Napisati program koji iz date web stranice u datoteku index.txt upisuje samo tekstualne podatke, 
+odnosno uklanja tagove i entitete. Npr. za prethodni primjer HTML koda datoteka index.txt bi trebala izgledati ovako:
+
+Naslov nastavakOvo je primjer i tekst zadatka  iz lekcije 9
+U slučaju da datoteka index.html ne postoji ispisati poruku "Datoteka index.html ne postoji" i prekinuti rad (nemojte koristiti funkciju exit 
+kako ne bi bilo problema sa testovima). Pri rješavanju zadatka je zabranjeno koristiti bilo kakve pomoćne nizove ili stringove.

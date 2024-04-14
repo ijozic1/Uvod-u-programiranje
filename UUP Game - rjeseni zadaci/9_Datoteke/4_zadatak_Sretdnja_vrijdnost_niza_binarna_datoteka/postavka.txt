@@ -1,0 +1,14 @@
+Napisati funkciju unesi_niz koja omogućuje korisniku da unese proizvoljan broj realnih brojeva (najviše 100) pri čemu se unos završava unosom 
+broja -1. Ovako unesen niz treba zapisati u binarnu datoteku niz.bin kao vrijednosti tipa double. Datoteka ne smije sadržavati ništa drugo 
+osim članova niza (dakle ne smije sadržavati ni uneseni broj -1).
+
+Zatim napišite funkciju srednja_vrijednost koja izračunava srednju vrijednost brojeva koji se nalaze u datoteci niz.bin i vraća je. 
+Ako datoteka ne postoji ili je prazna, treba vratiti 0.
+
+main funkcija treba izgledati onako kako je navedeno u polaznoj main.c datoteci, a to je:
+
+int main() {
+    unesi_niz();
+    printf("%g\n", srednja_vrijednost());
+    return 0;
+}

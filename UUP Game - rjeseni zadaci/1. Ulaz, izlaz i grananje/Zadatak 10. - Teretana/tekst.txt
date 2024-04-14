@@ -1,0 +1,15 @@
+Napravite program za jednu poznatu teretanu u Sarajevu. Program treba da pravi kalkulacije na osnovu parametara koje unosi korisnik, a koji će 
+korisniku biti korisni u konstrukciji treninga. Tačnije, na osnovu pola i visine, program treba da korisnika obavijesti o tome da li je potrebno da smrša 
+ili se udeblja, i za koliko kilograma (u odnosnu na idealnu masu). Odstupanje od manje od 3kg u odnosu na idealnu tjelesnu masu je potrebno zanemariti.
+
+Formula za računanje idealne tjelesne mase je:
+za muškarce: idealna masa[kg] = 50 + 2.3 (visina[inč] - 60)
+za žene: idealna masa[kg] = 45.5 + 2.3 (visina[inč] - 60)
+Korisnik unosi visinu u centimetrima, tako da ćete morati vršiti konverziju visine u inče, kako bi se mogla napraviti kalkulacija. 1 inč = 2,54cm. 
+Program ispisuje jednu od poruka "Vasa masa je uredu.", "Potrebno je da smrsate X kilograma" ili "Potrebno je da se ugojite X kilograma".
+Primjer ulaza i izlaza:
+
+Unesite spol (M/Z): M
+Unesite visinu (u cm): 180
+Unesite trenutnu masu: 50
+Potrebno je da se ugojite 24.9921 kilograma

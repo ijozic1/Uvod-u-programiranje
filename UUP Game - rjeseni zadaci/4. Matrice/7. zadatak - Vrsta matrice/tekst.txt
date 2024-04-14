@@ -1,0 +1,15 @@
+Napisati program koji omogućuje unos kvadratne matrice cijelih brojeva dimenzija NxN (N nije veće od 100). Korisnik najprije unosi broj 
+N (do-while petljom osigurati da je u traženom opsegu), zatim unosi elemente matrice. Zatim se ispisuje vrsta matrice, tj. jedan od sljedećih tekstova:
+
+Nul-matrica (matrica čiji su svi elementi 0)
+Jedinicna matrica (dijagonalna matrica na čijoj dijagonali su svi elementi jedinice),
+Dijagonalna matrica (kod koje su svi elementi van glavne dijagonale 0)
+Gornja trougaona matrica (kod koje su svi elementi ispod glavne dijagonale 0)
+Donja trougaona matrica (kod koje su svi elementi iznad glavne dijagonale 0)
+Sporedna dijagonalna matrica (matrica kod koje su svi elementi van sporedne dijagonale 0)
+Nista od navedenog
+
+Ako matrica ispunjava više uslova odjednom, treba ispisati tekst koji se u tabeli nalazi prije. Npr. jedinična matrica je ujedno i 
+dijagonalna ali za nju treba ispisati "Jedinicna matrica".
+
+Napomena: Zadatak obavezno riješiti koristeći matricu.

@@ -1,0 +1,9 @@
+Napisati program koji od korisnika traži da unese broj n i koji će ispisati tablicu množenja za uneseni broj n. 
+Broj n mora biti u intervalu [2, 10], što program mora provjeriti i završiti sa radom ukoliko uneseni broj to ne zadovoljava. 
+Tablicu ispisivati lijevo poravnatu, na 4 mjesta širine. Primjer izlaza:
+
+Unesite n: 4
+1   2   3   4
+2   4   6   8
+3   6   9   12
+4   8   12  16

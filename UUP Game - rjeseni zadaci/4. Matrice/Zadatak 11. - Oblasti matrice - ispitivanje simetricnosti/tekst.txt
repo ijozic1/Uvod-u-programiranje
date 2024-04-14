@@ -1,0 +1,29 @@
+Potrebno je napisati program koji će testirati simetričnost matrice po najvećim i najmanjim vandijagonalnim elementima. 
+Matrica je simetrična ako ima jednake najveće elemente iz O1 i O4 oblasti i ako ima jednake najmanje elemente iz O2 i O3 oblasti 
+(pogledati sliku). Korisnik sa tastature unosi cijeli broj n, koji predstavlja dimenziju matrice, te nakon toga unosi i elemente 
+matrice formata n × n. Unos napraviti takvim da se jedan red matrice unosi istovremeno (elementi se pri unosu razdvajaju razmacima – 
+pogledati primjer). Uneseni broj n mora biti u intervalu
+[3, 30], u suprotnom program ispisuje grešku i završava sa radom. Program, pored toga što treba ispitati simetričnost matrice, 
+treba da ispiše najveće (odnosno najmanje) vandijagonalne elemente iz pojedinih oblasti (zaokruženo na 3 decimale).
+
+O1 - gore (omeđeno glavnom i sporednom dijagonalom)
+O2 - lijevo (omeđeno glavnom i sporednom dijagonalom)
+O3 - desno (omeđeno glavnom i sporednom dijagonalom)
+O4 - dole (omeđeno glavnom i sporednom dijagonalom)
+Oblasti ne ukljucuju dijagonale
+
+Vaš zadatak jeste da, za unesenu matricu, pronađete najveći ili najmanji elemenat iz navedenih oblasti, ispitate simetričnost 
+matrice i ispišete pronađene elemente.
+
+Primjer 1:
+Unesite broj n: 5
+Unesite elemente 1. reda: 1 2 3 4 5
+Unesite elemente 2. reda: 6 5 4 3 2
+Unesite elemente 3. reda: 1 2 3 4 5
+Unesite elemente 4. reda: 8 3 0 2 1
+Unesite elemente 5. reda: 6 4 0 0 0
+Matrica je simetricna!
+Elementi: O1 = 4.000, O2 = 1.000, O3 = 1.000, O4 = 4.000
+
+Objašnjenje: U oblasti O1 najveći elemenat je 4, isto kao i u oblasti O4. U oblastima O2 i O3 najmanji elemenat je 1.
+Napomena: Zadatak obavezno riješiti koristeći matricu.

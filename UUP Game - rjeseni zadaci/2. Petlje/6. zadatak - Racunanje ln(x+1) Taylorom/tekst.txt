@@ -1,0 +1,21 @@
+Napisati program koja izračunava vrijednost ln(1+x) po sljedećoj formuli dobijenoj koristeći Taylorov razvoj:
+f(x)=x-(x^2)/2+(x^3)/3-(x^4)/4+...+(-1)^(n-1)*(x^n)/n
+
+Program treba omogućiti korisniku da unese dva broja: realan broj x (tipa double) na intervalu (-1,1) i pozitivan cijeli broj n koji označava 
+broj članova sume. Ako uneseni brojevi nisu iz traženog opsega treba ispisati poruku "Greska." i tražiti ponavljanje unosa.
+
+Zatim treba ispisati vrijednost sume koja je izračunata po gornjoj fomuli, vrijednost dobijenu koristeći bibliotečnu funkciju za 
+računanje prirodnog logaritma, te razliku u postotcima vrijednosti koja je izračunata u odnosu na bibliotečnu funkciju (ova razlika može biti i 
+negativan broj ako je funkcija ln1x vratila vrijednost manju od bibliotečne).
+
+Vrijednosti funkcije ln trebaju biti ispisane na 6 decimala, a vrijednost postotka treba biti ispisana i zaokružena na dvije 
+decimale (treba ispisati obje decimale čak i ako su nule) i ispisana sa znakom %. 
+
+Primjer ulaza i izlaza:
+
+
+Unesite broj x: 0.5
+Unesite broj n: 5
+Izracunata vrijednost: 0.407292
+Bibliotecna funkcija: 0.405465
+Razlika u postotcima: 0.45%

@@ -1,0 +1,31 @@
+{
+    "buildhost_description": {
+        "id": "gcloud",
+        "os": "Linux 5.10.0-18-cloud-amd64 x86_64\nDebian GNU/Linux 11 (bullseye)\n"
+    },
+    "tools": {
+        "compile": "10.2.1 20210110",
+        "compile[debug]": "10.2.1 20210110",
+        "debug": "10.1.90.20210103-git",
+        "profile[memcheck]": "valgrind-3.16.1",
+        "profile[sgcheck]": "valgrind-3.16.1"
+    },
+    "status": 4,
+    "test_results": {
+        "1": {
+            "success": false,
+            "status": 3,
+            "tools": {
+                "compile": {
+                    "status": 5,
+                    "duration": 0,
+                    "output": "/usr/bin/ld: /tmp/ccs8u48l.o: in function `main':\nmain.c:(.text+0x0): multiple definition of `main'; /tmp/cc4xktSn.o:Snijeg.c:(.text+0x0): first defined here\ncollect2: error: ld returned 1 exit status",
+                    "exit_code": 1,
+                    "success": false,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1667341912
+}

@@ -1,0 +1,9 @@
+Data je struktura:
+	struct Razlomak {
+		int brojnik, nazivnik;
+	};
+Potrebno je napisati funkciju
+struct Razlomak SaberiRazlomke(struct Razlomak r1, struct Razlomak r2) i funkciju
+struct Razlomak PomnoziRazlomke(struct Razlomak r1, struct Razlomak r2) koje će obaviti računske 
+operacije sabiranja i množenja dva razlomka, koji su poslani kao argumenti, te kao rezultat vratiti 
+dobijeni razlomak. Razlomak u rezultatu je potrebno maksimalno skratiti. Potrebno je napisati i testni kod u mainu.

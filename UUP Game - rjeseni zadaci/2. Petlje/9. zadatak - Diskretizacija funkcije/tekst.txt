@@ -1,0 +1,16 @@
+Diskretizacija predstavlja pridruživanje prebrojivog skupa vrijednosti funkciji, na način da se određenom broju vrijednosti x 
+koordinate pridružuje vrijednost funkcije u toj tački. Vrijednosti xi se biraju na osnovu određenog koraka diskretizacije, koji određuje razmak 
+između susjednih x vrijednosti. Napišite program koji ispisuje skup od n elemenata koji se dobiju diskretizacijom funkcije y=x3+5x2-7x+14, sa korakom k. 
+Vrijednosti n i k se unose sa tastature. Sa tastature se također unosi i početna vrijednost x.
+
+Primjer ulaza i izlaza:
+Unesite n: 5
+Unesite korak diskretizacije: 1
+Unesite pocetnu vrijednost x: 0
+x     y=f(x)
+------------
+0.0   14.00
+1.0   13.00
+2.0   28.00
+3.0   65.00
+4.0   130.00

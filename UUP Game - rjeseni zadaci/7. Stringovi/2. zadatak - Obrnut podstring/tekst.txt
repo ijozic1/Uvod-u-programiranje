@@ -1,0 +1,15 @@
+Na predavanjima smo učili funkciju podstring koja provjerava da li je neki string s2 sadržan u primljenom stringu s1 
+kao njegov podstring.
+
+U ovom zadatku trebate napraviti funkciju obrnut_podstring koja provjerava da li je podstring sadržan u stringu kao 
+obrnut! Npr. ako funkciji proslijedimo stringove:
+
+"abcdef" i "edc"
+funkcija treba vratiti 1 jer se "edc" nalazi kao obrnut podstring "cde" u stringu "abcdef".
+
+Pri tome, oba parametra funkcije trebaju biti tipa const char* što znači da ne smijete mijenjati primljene 
+stringove, niti smijete kreirati pomoćne stringove unutar funkcije.
+
+Napomena: Pri rješavanju zadatka nije dozvoljeno koristiti funkcije iz biblioteka string.h, stdlib.h kao ni 
+funkcije sprintf i sscanf iz biblioteke stdio.h. Nije dozvoljeno kreirati pomoćne stringove ili nizove u 
+funkciji ili globalno.

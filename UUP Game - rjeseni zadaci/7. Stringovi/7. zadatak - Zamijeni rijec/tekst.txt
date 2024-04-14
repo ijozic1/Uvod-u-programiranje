@@ -1,0 +1,20 @@
+Napisati funkciju
+
+char* zamijeni_rijec(char* str, const char *sta, const char *sa_cim, int cs)
+koja u proslijeđenom stringu str mijenja sva pojavljivanja riječi sta sa tekstom sa_cim. Funkcija isključivo 
+vrši zamjenu ako tekst predstavlja riječ (omeđena sa obje strane razmacima osim eventualno prve i posljednje riječi). 
+Voditi računa da je moguće da se izvorni string proširi (pogledati primjer), ali pretpostaviti da ima dovoljno mjesta za 
+proširivanje. Parametar cs označava da li će biti ignorirana razlika između velikih i malih slova (cs = 1 znači da nema 
+ignoriranja, dok cs = 0 znači da treba ignorirati).
+
+char tekst[100] = "  Zeko   pije   Caj.  Pije caja mali zeko!";
+zamijeni_rijec(tekst, "caj", "mlijeko", 0); //cs = 0
+printf ("'%s'", tekst);
+Primjer iznad treba da ispiše:
+
+'  Zeko   pije   mlijeko.  Pije caja mali zeko!'
+Pošto funkcija zamijeni_rijec mijenja tekst jedino ako je u pitanju riječ, u primjeru iznad bi samo riječ „Caj“ bila zamijenjena, 
+ali ne i riječ „caja“.
+
+Napomena: Pri rješavanju ovog zadatka zabranjeno je korištenje funkcija iz biblioteke string.h. Nije dozvoljeno kreirati pomoćne 
+stringove u funkciji ili globalno.

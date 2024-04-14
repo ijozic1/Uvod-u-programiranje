@@ -1,0 +1,19 @@
+Napravite program koji omogućuje unos dvije matrice realnih brojeva A i B. Najprije se unose dimenzije matrice A, pa matrica A, 
+pa dimenzije matrice B i konačno članovi matrice B. Program treba ispisati DA ako je matrica B jednaka matrici A zarotiranoj 
+za 90° u smjeru kazaljke na satu, a NE ako nije. 
+
+Primjeri matrica koje su zarotirane:
+1 2 3       7 4 1
+4 5 6       8 5 2
+7 8 9       9 6 3
+
+ 
+
+Primjer ulaza i izlaza:
+Unesite sirinu i visinu matrice A: 2 2
+Unesite clanove matrice A: 1 2 3 4
+Unesite sirinu i visinu matrice B: 2 2
+Unesite clanove matrice B: 3 1 4 2
+DA
+
+Napomena: Rješenje koje uvijek ispisuje DA ili NE ili hardcodira rješenja (npr. ako je matrica jednaka nekoj iz autotesta uvijek ispisuje DA ili NE) biće bodovana sa 0 bodova bez obzira na potencijalno ispravne dijelove koda! Zadatak obavezno riješiti koristeći matricu.

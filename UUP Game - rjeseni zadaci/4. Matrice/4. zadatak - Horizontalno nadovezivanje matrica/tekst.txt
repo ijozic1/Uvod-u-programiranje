@@ -1,0 +1,19 @@
+Napisati program koji prvo od korisnika traži da unese dimenzije matrica A i B, zatim unosi elemente tih matrica, te horizontalno 
+konketuje matrice A i B u matricu C, koju ispisuje na ekranu na 4 mjesta širine. Ako matrice nisu saglasne za nadovezivanje 
+(nemaju isti broj redova) ili ako su unesene dimenzije prevelike (veće od 10), program ispisuje grešku i završava s radom.
+
+Primjeri ulaza i izlaza:
+
+Unesite dimenzije matrice A (p q): 2 4
+Unesite dimenzije matrice B (r s): 2 3
+Matrica A:
+1. red: 1 2 3 4
+2. red: 4 3 2 1
+Matrica B:
+1. red: 7 8 9
+2. red: 9 8 7
+Matrica C:
+   1   2   3   4   7   8   9
+   4   3   2   1   9   8   7
+   
+Napomena: Zadatak obavezno riješiti koristeći tri matrice, te na kraju ispisati treću matricu na ekran bez ikakvih dodatnih manipulacija.

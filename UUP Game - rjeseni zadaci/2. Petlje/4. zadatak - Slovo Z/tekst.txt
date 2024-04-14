@@ -1,0 +1,10 @@
+Napisati program koji omogućuje unos pozitivnog cijelog broja n>4, a zatim na ekranu ispisuje veliko štampano slovo Z sastavljeno od 
+znakova * (zvjezdica) čije je širina i visina n znakova. do-while petljom osigurati da je n veće od 4.
+
+Primjeri ulaza i izlaza:
+Unesite broj n: 5
+*****
+   * 
+  *  
+ *   
+*****

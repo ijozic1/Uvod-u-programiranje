@@ -1,0 +1,22 @@
+Napisati program koji omogućuje da se izračuna medijan rezultata studenata na nekom ispitu.
+
+Najprije je potrebno unijeti broj studenata koji su pristupili ispitu (maksimalno 500). Nakon toga se unose bodovi ostvareni na ispitu koji 
+predstavljaju realni broj u opsegu [0,20]. Ukoliko se unese broj van ovog intervala, potrebno je ispisati poruku "Rezultat ispita nije u trazenom 
+intervalu" i prekinuti rad programa.
+
+Nakon završenog unosa potrebno je ispisati medijan. Medijan nekog niza brojeva dužine n je takva vrijednost za koju je barem n/2-1 članova niza 
+manje ili jednako tom medijanu, a barem n/2-1 ih je veće ili jednako. Ukoliko je broj članova niza neparan, medijan je onaj član niza koji zadovoljava 
+uslov zadatka, a ukoliko je paran za medijan se uzima aritmetička sredina dva člana niza koja su najbliža medijanu.
+
+Primjer 1:
+Unesite broj studenata: 5
+Unesite bodove na ispitu: 3.2 12.5 8.7 19.7 20.0
+Medijan je: 12.5
+Objašnjenje: članovi 3.2 i 8.7 su manji od 12.5, a 19.7 i 20.0 su veći od njega.
+
+Primjer 2:
+Unesite broj studenata: 6
+Unesite bodove na ispitu: 3.2 12.5 8.7 19.7 20.0 13.1
+Medijan je: 12.8
+Objašnjenje: članovi 3.2 i 8.7 su manji od 12.5, a 19.7 i 20.0 su veći od 13.1. Dakle dva broja najbliža medijanu su 12.5 i 13.1. 
+Njihova aritmetička sredina je 12.8.

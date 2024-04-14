@@ -1,0 +1,20 @@
+U nekoj tekstualnoj datoteci nalazi se tekst sastavljen od riječi i rečenica. 
+Smatramo da je riječ neprekinuti niz velikih i malih slova. Potrebno je 
+napraviti program koji najprije omogućuje da se unese naziv datoteke 
+(najviše 255 znakova). Ako datoteka pod tim imenom ne postoji, treba 
+ispisati poruku "Datoteka IME ne postoji" (umjesto IME ubaciti ono što 
+je korisnik unio) i prekinuti rad (nemojte koristiti funkciju exit kako 
+ne bi bilo problema sa testovima). Ako postoji, potrebno je pronaći i 
+na ekranu ispisati najdužu riječ u datoteci (i ništa drugo). Ako postoji 
+više riječi iste dužine, treba ispisati onu koja se najprije pojavljuje u 
+datoteci.
+
+Npr. neka datoteka tekst.txt ima sljedeći sadržaj:
+
+Ovo je neki primjer teksta u kojem najduza rijec ima 7 znakova, a prva takva rijec je "primjer".
+Primjer ulaza i izlaza programa bi izgledao ovako:
+
+Unesite naziv datoteke: tekst.txt
+primjer
+Pri rješavanju zadatka je zabranjeno korištenje bilo kakvih pomoćnih 
+stringova ili nizova, osim stringa koji označava naziv datoteke.

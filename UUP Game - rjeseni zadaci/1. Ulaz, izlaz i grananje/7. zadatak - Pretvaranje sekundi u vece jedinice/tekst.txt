@@ -1,0 +1,12 @@
+Napisati program koji sekunde (koje se unose kao cijeli broj), pretvara u dane, sate, minute i sekunde. Zanemariti predznak unesenog broja. 
+
+Primjeri ispisa:
+
+Unesite broj sekundi: 105235
+Pretvoreno: 1d 5h 13m 55s
+
+Unesite broj sekundi: 175924
+Pretvoreno: 2d 0h 52m 4s
+
+Unesite broj sekundi: -346
+Pretvoreno: 0d 0h 5m 46s

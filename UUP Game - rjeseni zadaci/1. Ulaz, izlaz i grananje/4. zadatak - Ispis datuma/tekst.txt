@@ -1,0 +1,10 @@
+Napisati program koji od korisnika traži da unese tri broja koji predstavljaju dan, mjesec i godinu. Nakon toga će program ispisati datum u sljedećem 
+formatu „Uneseni datum je X. mjesec Y.“. 
+
+Primjer:
+Unesite dan, mjesec i godinu (razdvojite razmakom): 21 9 2008
+Uneseni datum je 21. septembar 2008. godine
+
+Program treba da izvrši provjeru ulaznih podataka (mjesec ne smije biti manji od 1 niti veći od 12, dan mora biti u određenim granicama [1, 31] – nije potrebno 
+da provjeravate broj dana za određeni mjesec npr. februar da ima 28/29 dana, april 30 i slično, a godina ne smije biti manja od 1 niti veća od 4000). U slučaju 
+da se unese pogrešan podatak, program treba ispisati „Pogresni ulazni podaci!“ i završiti sa radom.

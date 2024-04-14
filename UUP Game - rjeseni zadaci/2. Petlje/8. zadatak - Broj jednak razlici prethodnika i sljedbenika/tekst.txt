@@ -1,0 +1,24 @@
+Napisati program koji omogućuje korisniku da sa tastature unosi cijele brojeve sve dok se ne unese broj 0. Biće uneseno minimalno tri broja 
+(ne računajući nulu koja označava kraj unosa). Program zatim treba ispisati koliko je uneseno brojeva takvih da je broj jednak razlici broja 
+unesenog neposredno prije i broja unesenog odmah nakon tog broja. Niti ovdje se ne uzima u obzir nula koja označava kraj unosa.
+
+Primjer ulaza i izlaza:
+Unesite brojeve (0 za kraj):
+15
+8
+7
+1
+2
+-4
+6
+-10
+0
+
+4 broja zadovoljavaju uslov.
+Objašnjenje: brojevi koji zadovoljavaju uslov su: 8 (=15-7), 7 (=8-1), -4 (=2-6), 6 (=-4-(-10)).
+
+Obratite pažnju da poruka treba glasiti “n broja…” ili “n brojeva…” ili “n broj…” tamo gdje po gramatici bosanskog, 
+srpskog i hrvatskog jezika to treba biti slučaj. U slučaju da niti jedan broj ne zadovoljava uslov zadatka, potrebno je 
+ispisati poruku “Niti jedan broj ne zadovoljava uslov.”
+
+Napomena: U zadatku nije dozvoljeno koristiti nizove!

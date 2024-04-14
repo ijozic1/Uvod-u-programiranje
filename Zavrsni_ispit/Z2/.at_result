@@ -1,0 +1,273 @@
+{
+    "buildhost_description": {
+        "id": "gcloud",
+        "os": "Linux 5.10.0-18-cloud-amd64 x86_64\nDebian GNU/Linux 11 (bullseye)\n"
+    },
+    "tools": {
+        "compile": "10.2.1 20210110",
+        "compile[debug]": "10.2.1 20210110",
+        "debug": "10.1.90.20210103-git",
+        "profile[memcheck]": "valgrind-3.16.1",
+        "profile[sgcheck]": "valgrind-3.16.1"
+    },
+    "status": 4,
+    "test_results": {
+        "2": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==252983== Memcheck, a memory error detector\n==252983== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==252983== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==252983== Command: outputVFLlfb\n==252983==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!==252983==\n==252983== HEAP SUMMARY:\n==252983==     in use at exit: 0 bytes in 0 blocks\n==252983==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated\n==252983==\n==252983== All heap blocks were freed -- no leaks are possible\n==252983==\n==252983== For lists of detected and suppressed errors, rerun with: -s\n==252983== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "3": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O \n O  O  O  O  O \n O  O  X  O  O \n O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O \n O  O  O  O  O \n O  O  X  O  O \n O  O  O  X  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "==253002== Memcheck, a memory error detector\n==253002== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253002== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253002== Command: outputhXXVDa\n==253002==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O\n O  O  O  O  O\n O  O  X  O  O\n O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O\n O  O  O  O  O\n O  O  X  O  O\n O  O  O  X  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!==253002==\n==253002== HEAP SUMMARY:\n==253002==     in use at exit: 0 bytes in 0 blocks\n==253002==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated\n==253002==\n==253002== All heap blocks were freed -- no leaks are possible\n==253002==\n==253002== For lists of detected and suppressed errors, rerun with: -s\n==253002== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "4": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O \n O  X  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O \n O  X  X  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O \n O  X  X  O  O  X  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:                         \n    1  2        3       \n                        \n                        \n                        \n                        \n                        \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 4,
+                    "output": "==253021== Memcheck, a memory error detector\n==253021== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253021== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253021== Command: outputpztx8b\n==253021==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O\n O  X  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O\n O  X  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O\n O  X  X  O  O  X  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:\n    1  2        3\n\n\n\n\n\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!==253021==\n==253021== HEAP SUMMARY:\n==253021==     in use at exit: 0 bytes in 0 blocks\n==253021==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated\n==253021==\n==253021== All heap blocks were freed -- no leaks are possible\n==253021==\n==253021== For lists of detected and suppressed errors, rerun with: -s\n==253021== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "5": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Nepoznata akcija.\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 5,
+                    "output": "==253040== Memcheck, a memory error detector\n==253040== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253040== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253040== Command: outputMw1qD9\n==253040==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Nepoznata akcija.\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!==253040==\n==253040== HEAP SUMMARY:\n==253040==     in use at exit: 0 bytes in 0 blocks\n==253040==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated\n==253040==\n==253040== All heap blocks were freed -- no leaks are possible\n==253040==\n==253040== For lists of detected and suppressed errors, rerun with: -s\n==253040== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "6": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  X  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija ne postoji!\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "==253059== Memcheck, a memory error detector\n==253059== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253059== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253059== Command: outputV2Y1Ca\n==253059==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija ne postoji!\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  X  O  O  O  O  O\n O  O  O  O  O  O",
+                    "exit_code": 124,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "7": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  X  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "==253078== Memcheck, a memory error detector\n==253078== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253078== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253078== Command: output7kNFC9\n==253078==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  X  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Rezervacija: Rezervacija otkazana!\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O\n O  O  O  O  O  O  O  O",
+                    "exit_code": 124,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "8": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste:  O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  X  O  O  O \n O  O  O  O  O  O  O  O \n O  O  O  O  O  O  O  O \nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 4,
+                    "output": "==253099== Memcheck, a memory error detector\n==253099== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253099== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253099== Command: outputPGw2dd\n==253099==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste: Nepostojeci red ili sjediste\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!==253099==\n==253099== HEAP SUMMARY:\n==253099==     in use at exit: 0 bytes in 0 blocks\n==253099==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated\n==253099==\n==253099== All heap blocks were freed -- no leaks are possible\n==253099==\n==253099== For lists of detected and suppressed errors, rerun with: -s\n==253099== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "9": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "output": "Velicina sale:\nBroj redova: Broj sjedista: \n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste: Nepostojeci red ili sjediste\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!",
+                    "duration": 0,
+                    "status": 1,
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 5,
+                    "output": "==253119== Memcheck, a memory error detector\n==253119== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==253119== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==253119== Command: outputKe3MC9\n==253119==\nVelicina sale:\nBroj redova: Broj sjedista:\n   Izaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Red: Sjediste: Nepostojeci red ili sjediste\nIzaberite akciju:\n[0] Rezervacija\n[1] Otkazivanje rezervacije\n[2] Prikazi salu\n[3] Prikazi rezervacije\n[4] Izlaz\n\n   Akcija: Dovidjenja!==253119==\n==253119== HEAP SUMMARY:\n==253119==     in use at exit: 0 bytes in 0 blocks\n==253119==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated\n==253119==\n==253119== All heap blocks were freed -- no leaks are possible\n==253119==\n==253119== For lists of detected and suppressed errors, rerun with: -s\n==253119== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1675330942
+}

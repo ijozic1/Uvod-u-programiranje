@@ -1,0 +1,9 @@
+Napisati program koji od korisnika traži unos dva niza (sa najviše od 50 elemenata), unos se prekida sa -1. Program u treći niz 
+treba da smjesti elemente koji se javljaju i u prvom i u drugom nizu, bez ponavljanja. Konkretnije, ako nizove smatramo skupovima, 
+program treba da nađe presjek dva skupa. Paziti da presjek može biti prazan skup, tj. da treći niz može imati nula elemenata. Također, 
+iza posljednjeg elementa niza prilikom ispisa nema znaka zarez.
+
+Primjer ulaza i izlaza:
+Unesite elemente 1. niza (-1 kraj): 1 2 3 4 4 5 6 7 7 8 9 -1
+Unesite elemente 2. niza (-1 kraj): 4 7 4 44 4 11 3 4 4 4 -1
+Presjek unesenih nizova je: 3, 4, 7

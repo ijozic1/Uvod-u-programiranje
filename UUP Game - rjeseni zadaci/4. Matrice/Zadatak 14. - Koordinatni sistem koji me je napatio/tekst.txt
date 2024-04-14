@@ -1,0 +1,20 @@
+Napisati program za iscrtavanje linearne funkcije y + x = n korištenjem dvodimenzionalnog niza za bilježenje vrijednosti 
+funkcije u određenim tačkama. Od korisnika tražiti unos vrijednosti n, pri čemu n treba biti cjelobrojan broj u intervalu (0,20]. 
+Ako se unese pogrešan broj tražiti ponovno unos.
+
+Primjeri ulaza i izlaza:
+Primjer 1:
+
+Crtat cemo funkciju y + x = n. Unesite n: 10
+10+
+9 +  *
+8 +     *
+7 +        *
+6 +            *
+5 +                *
+4 +                    *
+3 +                        *
+2 +                             *
+1 +                                  *
+0 +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20

@@ -1,0 +1,26 @@
+Napisati program koji će koristiti kao jednoupotrebni jednostavni kalkulator. 
+Program najprije izlistava operacije koje korisnik može koristiti, a zatim, nakon što je korisnik odabrao 
+operaciju, unosi jedan ili dva broja/operanda (u zavisnosti od operacije) i vrši tu operaciju nad njima. 
+Potrebno da je se među ponuđenim operacijama nađu:
+Operacija	Znak	Broj Operanda
+Sabiranje	+	2
+Oduzimanje	-	2
+Množenje	*	2
+Dijeljenje	/	2
+Kvadriranje	#	1
+Korjenovanje	&	1
+
+Primjer 1:
+--- Moj mini kalkulator ---
+Sabiranje: +
+Oduzimanje: -
+Mnozenje: *
+Dijeljenje: /
+Kvadriranje: #
+Korjenovanje: &
+
+Odaberite operaciju: *
+Unesite prvi broj: 11
+Unesite drugi broj: 15.5
+
+Rezultat: 11 * 15.5 = 170.5

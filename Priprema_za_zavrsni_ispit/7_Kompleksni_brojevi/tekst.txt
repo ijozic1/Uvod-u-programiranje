@@ -1,0 +1,8 @@
+U datoteci brojevi.txt se nalazi niz od najviše 200 kompleksnih brojeva, svaki u
+zasebnom redu, pri čemu se u prvoj koloni nalazi realni, a u drugoj koloni imaginarni dio
+kompleksnog broja. Napisati program koji proširuje sadržaj datoteke i to na način da se u treću
+kolonu doda moduo, a u četvrtu kolonu argument posmatranog kompleksnog broja. U svrhu
+rada sa kompleksnim brojevima definisati strukture KompleksniA i KompleksniE koji
+predstavljaju tip podatka za rad sa algebarskim i eksponencijalnim oblikom kompleksnog
+broja. Napisati i funkcije koje omogućavaju direktan ispis algebarskog i eksponencijalnog
+broja, te po završetku proširivanja datoteke brojevi.txt ispisati njen sadržaj na ekran.

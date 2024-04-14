@@ -1,0 +1,8 @@
+Napisati funkciju int stepen_broja_dva(int n) koja vraća logičku istinu (1) ako je broj n stepen broja 2 te 
+logičku neistinu u suprotnom. Npr. za n = 32 treba vratiti 1, a za n = 15 treba vratiti 0. Nije dozvoljeno koristiti 
+funkcije iz biblioteke math.h. 
+Napisati i kraću main funkciju koja omogućuje testiranje napisane funkcije vrati_najveci_stepen. 
+
+Primjeri ulaza i izlaza:
+Unesite n: 32
+Broj 32 je stepen dvojke.

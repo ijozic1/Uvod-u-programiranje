@@ -1,0 +1,6 @@
+Napisati C program koji pronalazi sve jedinstvene četvorke u unesenom nizu cijelih brojeva
+čiji je zbir jednak zadanom broju N.
+Primjer:
+ Originalni niz: 0 4 5 5 0 1 6 6 -3
+ Četvorke: 0 0 6 6
+           0 1 4 7

@@ -1,0 +1,8 @@
+Enkripcija ili šifriranje je proces kojim se orginalna poruka učini nečitljivom za osobe koje ne znaju ključ enkripcije. Cesarova šifra je jedna od prvih i 
+najjednostavnijih načina enkripcije. U pitanju je jednostavna zamjena slova poruke sa odredjenim pomakom, na primjer ako je pomak 1 slovo A bi bilo zamijenjeno 
+slovom B, slovo B sa slovom C, slovo Z sa slovom A, itd...
+Vaš zadatak je da napravite funkciju void Enkripcija(int pomak), koja će sadržaj iz datoteke Ulaz.txt enkriptovati i upisati u datoteku EnkriptovanaPoruka.txt. 
+Takodjer je potrebno napisati funkciju void Dekripcija(int pomak), koja će dekriptovati sadržaj iz datoteke EnkriptovanaPoruka.txt i upisati ga u datoteku 
+DekriptovanaPoruka.txt. Uzeti u obzir da se koristi engleski alfabet.
+
+Napomena: U zadatku nije dozvoljeno koristiti stringove!

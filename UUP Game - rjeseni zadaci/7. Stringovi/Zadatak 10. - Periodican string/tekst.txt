@@ -1,0 +1,16 @@
+Napisati funkciju
+
+int periodican(const char *string)
+koja vraća vrijednost 0 ukoliko string nije periodičan, a ukoliko jeste, funkcija treba da vrati dužinu perioda, tj. 
+broj znakova u jednom periodu. Pod periodičnim stringom podrazumijevamo string koji se sastoji isključivo od periodičnog 
+ponavljanja istog podstringa (s tim da zadnji podstring ne mora da bude kompletan). Primjeri periodičnih stringova 
+(periodi su 2, 3 i 5, respektivno):
+
+ababab
+abcabca
+DanasDanasDa
+dok sljedeći stringovi nisu periodični (period im je 0):
+
+ababac
+DanasDanasS
+Napomena: Nije dozvoljeno kreirati pomoćne stringove u funkciji ili globalno.

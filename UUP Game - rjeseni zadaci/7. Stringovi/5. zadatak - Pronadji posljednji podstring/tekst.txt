@@ -1,0 +1,20 @@
+U predavanjima je data funkcija
+
+const char* podstring (const char *str, const char *trazi)
+koja traži tekst trazi unutar proslijeđenog stringa str. Funkcija treba da vrati pokazivač na poziciju u 
+string str gdje se nalazi podstring. Ukoliko ima više takvih stringova funkcija treba vratiti indeks koji 
+predstavlja početak prvog stringa, a ko se podstring ne nalazi u stringu treba vratiti nul-pokazivač.
+
+Napisati novu funkciju pronadji_posljednji koja slično funkciji podstring pronalazi tekst unutar stringa ali 
+ovaj put vraća indeks posljednjeg pojavljivanja. Primjeri:
+
+const char *n = "Danas je divan dan!";
+printf ("%d", pronadji_posljednji(n, "divan")); 	//9
+printf ("%d", pronadji_posljednji(n, "Divan")); 	//-1 (nema)
+printf ("%d", pronadji_posljednji(n, "Danas")); 	//0
+printf ("%d", pronadji_posljednji(n, "an"));    	//16
+printf ("%d", pronadji_posljednji(n, "an!"));   	//16
+printf ("%d", pronadji_posljednji("abc cde abc", "abc")); 	//8
+
+Napomena: Pri rješavanju ovog zadatka zabranjeno je korištenje funkcija iz biblioteke string.h. 
+Nije dozvoljeno kreirati pomoćne stringove u funkciji ili globalno.

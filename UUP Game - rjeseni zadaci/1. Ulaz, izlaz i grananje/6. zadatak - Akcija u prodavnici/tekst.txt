@@ -1,0 +1,13 @@
+Napišite program koji će omogućiti prodavnici računanje cijena akcijskih artikala.
+Ukoliko se pokuša računati cijena van radnog vremena prodavnice (radno vrijeme je 8:00 - 17:00), program neće odobriti računanje 
+cijene (ispisuje grešku " Uneseno vrijeme je van radnog vremena prodavnice." i završava sa radom). U suprotnom, program od korisnika traži da unese 
+prijašnju cijenu artikla, te se nova cijena računa na sljedeći način:
+Ukoliko je cijena bila manja od 15KM, cijena artikla je povećana za 15%
+Ukoliko je cijena bila u intervalu od 15KM do 45KM, cijena artikla je smanjena za 4KM
+Ukoliko je cijena bila veća od 45KM, smanjena je za 12%.
+
+Potrebno je da program ispiše prigodnu poruku o tome koja korekcija nad cijenom je izvršena te da ispiše novu cijenu.
+Primjer ulaza i izlaza:
+Unesite trenutno vrijeme (hh:mm): 16:00
+Unesite cijenu robe (KM): 15.1
+Cijena je smanjena za 4 KM i iznosi 11.1KM.

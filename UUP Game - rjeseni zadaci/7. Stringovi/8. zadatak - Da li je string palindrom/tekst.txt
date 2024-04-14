@@ -1,0 +1,10 @@
+Napisati funkciju int je_li_palindrom(const char* str) koja ispituje da li je proslijeđeni string palindrom te vraća 1 ako jeste, 
+odnosno 0 ako nije. U funkciji je zabranjeno korištenje indekisranja stringa (p[i]) kao i trivijalne simulacije 
+indeksiranja pomoću *(p + i). Pri tome ignorirati sve znakove koji nisu slova i brojevi. Također, ignorirati velika i mala slova. 
+
+Primjeri:
+printf ("%d", je_li_palindrom("Kapak")); //1
+printf ("%d", je_li_palindrom("k a   p  a  k   ")); //1
+printf ("%d", je_li_palindrom("ka p a  ak")); //0
+printf ("%d", je_li_palindrom("Ana voli... Milovana!")); //1
+Napomena: Nije dozvoljeno kreirati pomoćne stringove u funkciji ili globalno.

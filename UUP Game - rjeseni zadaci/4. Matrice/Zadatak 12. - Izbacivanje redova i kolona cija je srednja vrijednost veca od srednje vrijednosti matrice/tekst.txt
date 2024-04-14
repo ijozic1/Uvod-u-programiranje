@@ -1,0 +1,32 @@
+Potrebno je napisati program koji obavlja sljedeći zadatak:
+
+Korisnik najprije mora unijeti dva prirodna broja M i N ne veća od 100. Petljom do-while osigurati da su brojevi u traženom opsegu. 
+Nakon toga se unosi matrica realnih brojeva (tipa double) koja se sastoji od M redova i N kolona.
+
+Program treba najprije izračunati srednju vrijednost svih elemenata matrice, a zatim izbaciti sve redove matrice čija je srednja
+vrijednost veća od srednje vrijednosti kompletne matrice, te nakon toga i sve kolone. Konačno, treba ispisati na ekran matricu pri 
+čemu svaki član matrice treba biti zaokružen na jednu decimalu, a za svaki član treba biti predviđeno 6 mjesta na ekranu.
+
+Primjer ulaza i izlaza:
+
+Unesite vrijednosti M i N: 3 103
+Vrijednosti su van opsega!
+Unesite vrijednosti M i N: 3 3
+Unesite clanove matrice: 
+1.1 2.2 3.3
+4.4 5.5 6.6
+7.7 8.8 9.9
+Nakon izbacivanja matrica glasi:
+1.1 2.2 3.3
+4.4 5.5 6.6
+Objašnjenje: Srednja vrijednost članova matrice je 5.5, srednja vrijednost prvog reda je 2.2 (ne treba ga izbaciti), 
+drugog je 5.5 (ne treba ga izbaciti jer je srednja vrijednost jednaka srednjoj vrijednosti čitave matrice), a 
+trećeg je 8.8 (treba ga izbaciti). Dakle nakon izbacivanja redova matrica glasi:
+1.1 2.2 3.3
+4.4 5.5 6.6
+Sada izračunavamo srednje vrijednosti kolona i vidimo da nijedna od njih nije veća od 5.5 tako da nijednu kolonu ne treba izbaciti.
+
+Kod provjere jednakosti koristiti vrijednost ε=0.0001.
+
+Napomena: Zadatak obavezno riješiti koristeći matricu. Obavezno program se najprije treba sastojati od unosa matrice, zatim izbacivanja, 
+te nakon toga ispisa matrice bez preskakanja elemenata prilikom ispisa.

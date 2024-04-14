@@ -1,0 +1,64 @@
+Raspored časova je definisan kao niz tipa struct Cas pri čemu je struktura Cas definisana na sljedeći način:
+
+struct Cas {
+    char predmet[100];
+    enum { Ponedjeljak, Utorak, Srijeda, Cetvrtak, Petak, Subota, Nedjelja} dan_u_sedmici;
+    struct Vrijeme pocetak, kraj;
+};
+Značenje polja ove strukture je sljedeće: predmet je naziv predmeta, dan_u_sedmici ima vrijednost 0 za 
+ponedjeljak, 1 za utorak... pocetak i kraj su vrijeme početka i kraja časa, a struktura Vrijeme je data kao:
+
+struct Vrijeme {
+    int sat, minuta, sekunda;
+};
+Potrebno je napisati funkciju dodaj_cas koja dodaje novi čas u raspored. Funkcija treba imati prototip:
+
+void dodaj_cas(struct Cas raspored[], int broj_casova, char* predmet, int trajanje)
+Ova funkcija treba u rasporedu pronaći prvo slobodno mjesto dovoljno veliko za traženi čas te dodati 
+novi član na kraj niza raspored. Parametar broj_casova označava broj članova niza, a parametar trajanje 
+je željeno trajanje časa u minutama. Ako nema više slobodnih mjesta u rasporedu funkcija ne treba uraditi ništa.
+
+Napravite i glavni program koji omogućuje dodavanje časa u raspored i ispis rasporeda. Korisniku se nudi 
+meni sa tri opcije: dodavanje časa, ispis rasporeda i kraj programa. Da biste ovo uradili što efikasnije, 
+dodajte i jednu funkciju za ispis:
+
+void ispis_rasporeda(struct Cast raspored[], int broj_casova)
+koja ispisuje raspored hronološki, odnosno poredano po danima u sedmici i vremenu početka časa.
+
+Pretpostavke i ograničenja:
+Nastava se odvija isključivo radnim danima u periodu 8:00­-21:00.
+
+Niz u kojem se nalazi raspored ne mora biti poredan hronološki, što znači da se npr. čas predviđen za 
+srijedu može nalaziti u nizu prije ili poslije časa predviđenog za utorak, ili čas predviđen za 12h prije 
+časa predviđenog istog dana za 10h. Mada izgleda da će sa gore opisanim main­om raspored uvijek biti u 
+hronološkom redoslijedu, to nije tačno (pogledajte primjer ispod), a osim toga možda će u budućoj verziji 
+programa biti podržano brisanje časa iz rasporeda. S druge strane funkcija ispis_rasporeda mora ispisivati 
+raspored hronološki, a ne redom kojim su časovi postavljeni u niz.
+
+Funkcija dodaj_cas treba dodati čas u hronološki prvi dostupan termin. Npr. ako se traži čas trajanja 120 minuta 
+a nijedan drugi čas nije zakazan za ponedjeljak u periodu 8:00­10:00, onda se čas treba staviti u taj termin. 
+No tako formiran element tipa Cas treba biti postavljen na kraj niza tj. na prvo slobodno mjesto u nizu! 
+Ako vaš program daje ulaz i izlaz kao na primjeru ispod, ali funkcije dodaj_cas i ispis_rasporeda kada se 
+pozovu samostalno ne daju ispravne rezultate za nizove koji nisu u hronološkom redoslijedu, program se ne smatra 
+za ispravan.
+
+Primjer ulaza i izlaza:
+Izaberite opciju: 1 = dodavanje casa, 2 = ispis rasporeda, 0 = izlaz: 1
+Unesite naziv predmeta: Predmet 1
+Unesite trajanje u minutama: 600
+Cas je dodan u raspored.
+Izaberite opciju: 1 = dodavanje casa, 2 = ispis rasporeda, 0 = izlaz: 1
+Unesite naziv predmeta: Predmet 2
+Unesite trajanje u minutama: 600
+Cas je dodan u raspored.
+Izaberite opciju: 1 = dodavanje casa, 2 = ispis rasporeda, 0 = izlaz: 1
+Unesite naziv predmeta: Predmet 3
+Unesite trajanje u minutama: 100
+Cas je dodan u raspored.
+Izaberite opciju: 1 = dodavanje casa, 2 = ispis rasporeda, 0 = izlaz: 2
+PONEDJELJAK:
+8:00 - 16:00 Predmet 1
+16:00 - 17:40 Predmet 3
+UTORAK:
+8:00 - 16:00 Predmet 2
+Izaberite opciju: 1 = dodavanje casa, 2 = ispis rasporeda, 0 = izlaz: 0

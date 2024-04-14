@@ -1,0 +1,22 @@
+Sabit i Fadila su se odlučili okušati u pikadu, tradicionalnoj igri koja potiče iz Engleske, a danas je vrlo popularan sport. 
+Sabit je odlučio da igraju igru 301, u kojoj je cilj prije protivnika doći do 0 poena.
+
+Na standardnoj pikado tabli postoje tri vrste polja za brojeve: Single, Double i Triple, te Outer Bullseye i Inner Bullseye. 
+Broj bodova koji je igrač ostvario se računa prema tipu polja u koje se strelica zabila. Tako se za brojeve od 1 do 20 pogotkom single 
+polja ostvaruje broj bodova jednak tom broju, pogotkom double polja ostvaruje dupli broj poena dok pogotkom triple polja se ostvaruje trostruki 
+broj poena. Outer Bullseye i Inner Bullseye nose 25 i 50 poena respektivno. Sabit i Fadila nisu vješti u ovoj igri te su se odlučili da će 
+gađati samo brojeve koji su manji od 10.
+
+Vaš zadatak je da napravite program koji najprije omogućuje da se unesu dvije sekvence karaktera koje predstavljaju 9 strelica koje su 
+Sabit i Fadila bacili prema ploči, te da na osnovu unesenih sekvenci karaktera odredite koliko poena je koji igrač ostvario, te na 
+osnovu preostalog broja poena odredite pobjednika u ovoj igri. Ukoliko je neki od igrača premašio 301 poen, potrebno je za njega ispisati 
+poruku ‘Igrac X je premasio potrebni broj poena, ...’. Ukoliko oba igrača premaše potrebni broj poena, potrebno je ispisati poruku 
+‘Oba igraca su premasila potrebni broj poena, rezultat je nerijesen.’ Polja u sekvenci karaktera se označavaju slijedećim redom: 
+single (S), double (D), triple (T), promašaj (X), outer bullseye (O), inner bullseye (I). Kraj unosa se označava znakom tačka. 
+U slučaju da unos nije ispravan, tj. da se u unosu nalaze nelegalni karakteri ili nije unesen dovoljan broj strelica (9), 
+program treba ispisati ‘Neispravni ulazni podaci’ te ponovo tražiti unos za odgovarajućeg igrača.
+
+Primjer ulaza i izlaza:
+Unesite pogotke za Sabita: T9T8D2XD4XOIX.
+Unesite pogotke za Fadilu: T8T8T8D9XXD7T3I.
+Sabit je ostvario 138 poena, Fadila je ostvarila 163 poena. Pobjednik je Fadila, kojoj je ostalo još 138 poena do pobjede.

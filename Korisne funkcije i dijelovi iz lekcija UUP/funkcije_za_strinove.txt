@@ -1,0 +1,21 @@
+Sve se nalaze u string.h biblioteci
+
+strlen - vraca broj znakova u stringu
+strcpy - kopira string u drugi string brisuci stari
+strcmp - leksikografsko poredjenje dva stringa
+strcat - spaja dva stringa
+strchr - pronalazi karaktere u stringu
+strstr - pronalazi podstring u stringu
+
+DUZINA stringa - bez \0
+int string(char*s){
+    int duzina=0;
+    while(*s!='\0){
+        duzina++;
+        s++;
+    }
+    return duzina;
+}
+
+strlen(tekst) - u zagradama naziv stringa, s tim da ovo racuna i '\0'
+strcpy(s, tekst) - ono sta ubacujemo i string u koji ubacujemo
