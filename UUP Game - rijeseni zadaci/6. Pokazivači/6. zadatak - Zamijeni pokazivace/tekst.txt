@@ -1,0 +1,23 @@
+Napisati funkciju zamijeni_pokazivace koja mijenja vrijednost dva pokazivača. Npr. ukoliko u main funkciji imamo dvije cjelobrojne 
+varijable a i b, i neka imamo dva pokazivača na cijele brojeve koji pokazuju na a i b (tj. pok1 = &a, pok2 = &b), nakon 
+poziva: zamijeni_pokazivace (&pok1, &pok2); pokazivač pok1 treba da pokazuje na varijablu b (tj. da ima vrijednost &b) a 
+pok2 treba da pokazuje na varijablu a (tj. da ima vrijednost &a).
+
+Obratite pažnju da ovaj zadatak nije isto što smo radili na predavanjima! Na predavanjima smo pravili funkciju zamijeni koja 
+mijenja vrijednosti dvije promjenljive tipa int preko pokazivača. Npr. ako imamo promjenljive:
+int a=15, b=30;
+kreirate dva pokazivača koji pokazuju na ove dvije promjenljive
+int *p1 = &a, *p2 = &b;
+pozovete funkciju zamijeni
+zamijeni(p1,p2);
+sada će a biti 30, a b će biti 15.
+
+U ovom zadatku se traži nešto sasvim drugačije, traži se da kada pošaljete adrese pokazivača u funkciju
+zamijeni_pokazivace(&p1,&p2);
+sada p1 treba da pokazuje na b, a p2 da pokazuje na a.
+
+Također obratite pažnju da, mada prividno djeluje da će rješenje sa predavanja raditi i u ovom slučaju, ono ustvari vrši 
+konverziju pokazivača int* u int što nije dozvoljeno jer može prouzročiti različite greške. Zbog toga je u testovima za 
+ovaj zadatak zabranjena konverzija pokazivača u drugi tip tj. dobija se greška passing argument 1 of 'zamijeni_pokazivace' 
+from incompatible pointer type. Morate deklarisati funkciju na pravilan način, kao i pomoćnu promjenljivu koju budete koristili 
+za zamjenu.

@@ -1,0 +1,12 @@
+Napisati funkciju ispisi koja će ispisivati niz unutar vitičastih zagrada pri čemu su elementi razdvojeni znakom zarez. 
+Funkcija prihvata dva parametra, niz (tačnije, pokazivač na prvi elemenat niza) i cijeli broj n koji predstavlja broj 
+elemenata niza. Sljedeći programski kod:
+
+int niz1[] = {1, 3, 2};
+int niz2[10] = {0, 3, 2, 2, 2, 4, 6, 1, 9, 10};
+ispisi(niz1, 3);
+ispisi(niz2, 10);
+bi na ekranu trebao ispisati „{1, 3, 2}“ i „{0, 3, 2, 2, 2, 4, 6, 1, 9, 10}“.
+
+Napomena: Pri rješavanju zadatka obavezno koristiti pokazivačku aritmetiku! Nije dozvoljena ni trivijalna 
+simulacija indeksiranja izrazima oblika *(niz+i).

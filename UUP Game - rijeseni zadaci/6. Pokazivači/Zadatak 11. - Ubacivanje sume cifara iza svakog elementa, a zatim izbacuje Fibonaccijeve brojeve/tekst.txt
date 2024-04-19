@@ -1,0 +1,33 @@
+Potrebno je napisati C program koji sadrži sljedeće funkcije:
+
+Funkcija ubaci prima niz cijelih brojeva te nakon svakog člana niza ubacuje u niz pozitivan broj koji predstavlja sumu cifara 
+prethodnog člana. Npr. ako je niz glasio:
+123, 456, 789
+nakon poziva funkcije niz treba glasiti:
+123, 6, 456, 15, 789, 24
+Funkcija ne treba vraćati ništa jer je broj članova nakon poziva funkcije poznat (iznosi tačno dvostruku vrijednost primljenog 
+broja članova). U funkciji pretpostavite da je niz deklarisan tako da je dovoljno velik da primi sve dodatne članove.
+
+Funkcija izbaci prima niz cijelih brojeva i iz njega izbacuje sve članove niza koji su Fibonaccijevi brojevi. Fibonaccijev 
+(Fibonaći) niz je dobro poznati niz prirodnih brojeva čiji je svaki član jednak sumi prethodna dva, a prva dva člana niza 
+su po definiciji jedinice, dakle taj niz glasi:
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
+
+Dakle, iz primljenog niza treba izbaciti sve brojeve koji se pojavljuju u Fibonaccijevom nizu, pa npr. ako je funkciji 
+proslijeđen niz:
+1, 2, 3, 4, 5, 6, 7, 8, 9
+nakon poziva funkcije niz treba glasiti:
+4, 6, 7, 9
+Funkcija treba vratiti broj članova niza nakon izbacivanja.
+
+U funkciji main treba iskoristiti dvije prethodno napravljene funkcije na sljedeći način: korisnik najprije unosi 
+niz od fiksno 10 cijelih brojeva, zatim se poziva funkcija ubaci, pa funkcija izbaci, te se na kraju ispisuje tako modificiran niz.
+
+Primjer ulaza i izlaza:
+
+Unesite niz od 10 brojeva: 1 2 3 4 5 6 7 8 9 10
+Modificirani niz glasi: 4, 4, 6, 6, 7, 7, 9, 9, 10.
+U programu se smiju nalaziti i druge funkcije osim navedenih - po želji.
+
+Napomena: U zadatku je strogo zabranjeno koristiti pomoćne nizove tj. deklarisati bilo kakav niz osim niza deklarisanog u
+main funkciji! Rješenje u kojem budu korišteni pomoćni nizovi će biti bodovano sa 0 bodova!

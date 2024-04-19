@@ -1,0 +1,22 @@
+Koristeći isključivo pokazivačku aritmetiku, napisati funkciju
+
+int izbaci_podniz(int *p1, int *p2, const int *q1, const int *q2)
+koja iz niza omeđenog sa p1 i p2 (p1 pokazuje na početak, a p2 tačno iza kraja niza) izbacuje svako ponavljanje 
+drugog niza omeđenog sa q1 i q2 (q1 pokazuje na prvi element, a q2 tačno iza zadnjeg). Funkcija treba da 
+modificira prvi niz tako da elementi koji nisu izbačeni ostanu u istom redoslijedu. Također, funkcija treba 
+da vrati broj izbačenih elemenata (odnosno 0 ako izbacivanja nije bilo tj. ako prvi niz nije sadržavao drugi niz). 
+
+Primjer korištenja funkcije:
+
+int niz1[14] = {1, 2, 3, 4, 5, 6, 7, 0, 1, 2, 3, 4, 5, -1};
+int vel = 14, i;
+int niz2[4] = {2, 3, 4, 5};
+int br_izb = izbaci_podniz(niz1, niz1 + vel, niz2, niz2 + 4);
+int nova_velicina = vel - br_izb;
+for (i = 0; i < nova_velicina; ++i)
+    printf ("%i ", niz1[i]);
+Kôd iznad treba ispisati „1 6 7 0 1 -1“, 8 elemenata je izbačeno (sekvenca {2, 3, 4, 5} je izbačena dva puta, 
+a funkcija je vratila broj 8).
+
+Napomena: Pri rješavanju zadatka obavezno koristiti pokazivačku aritmetiku! Nije dozvoljena ni trivijalna 
+simulacija indeksiranja izrazima oblika *(niz+i).

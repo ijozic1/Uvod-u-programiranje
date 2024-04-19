@@ -1,0 +1,6 @@
+Napisati funkciju obrni_cifre koja prihvata pokazivač na početak niza i broj elemenata niza a koja svakom elementu niza obrće cifre. 
+Koristiti isključivo pokazivačku aritmetiku. Npr. ako se niz sastoji od elemenata 123, 101, 31, nakon poziva ove funkcije niz treba
+da sadrži elemente 321, 101, 13.
+
+Napomena: Pri rješavanju zadatka obavezno koristiti pokazivačku aritmetiku! Nije dozvoljena ni trivijalna 
+simulacija indeksiranja izrazima oblika *(niz+i).

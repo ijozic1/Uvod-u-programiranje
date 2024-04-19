@@ -1,0 +1,15 @@
+Koristeći isključivo pokazivačku aritmetiku, napisati funkciju
+
+int zamijeni_podniz(int *p1, int *p2,  const int *q1, const int *q2, const int *r1, const int *r2)
+koja unutar prvog niza (niz1, omeđenog sa p1 i p2) pronalazi sve podnizove jednake nizu omeđenom sa 
+q1 i q2 (niz2) te ih mijenja sa elementima niza omeđenog sa r1 i r2 (niz3). Pokazivači p1, q1 i r1 pokazuju 
+na prve elemente nizova, a pokazivači p2, q2 i r2 iza posljednjih elemenata.
+
+Voditi računa o tome da je moguće da niz3 ima manje elemenata od niza niz2, pri čemu je potrebno da 
+funkcija „smanji“ niz1, kao i o tome da je moguće da niz3 ima više elemenata od niza niz2, pa je potrebno 
+da funkcija „proširi“ niz1 kako bi svi elementi mogli stati. Pretpostaviti da niz1 ima dovoljno mjesta da 
+prihvati sve dodatne elementa ukoliko niz3 ima više elemenata od niza niz2.
+
+Funkcija treba da vrati broj koji označava za koliko je elemenata originalni niz proširen (pozitivan broj) 
+ili smanjen (negativan broj) ili je ostao iste veličine (niz1 ne sadrži niz2 kao podniz ili niz2 i niz3 imaju 
+isto elemenata) kada funkcija treba da vrati nulu kao rezultat.
