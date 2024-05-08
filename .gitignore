@@ -1,0 +1,7 @@
+*.autotest2
+*.main
+*.at_result
+
+.autotest2
+.main
+.at_result
